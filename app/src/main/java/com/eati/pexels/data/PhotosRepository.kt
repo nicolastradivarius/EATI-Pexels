@@ -11,7 +11,7 @@ class PhotosRepository {
             id = it.id,
             width = it.width,
             height = it.height,
-            url = it.url,
+            url = it.src.original,
             photographer = it.photographer,
             photographerUrl = it.photographerUrl,
             photographerId = it.photographerId,
