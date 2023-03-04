@@ -29,7 +29,7 @@ fun SearchBar(updateResults: (String) -> Unit) {
         ) {
             TextField(
                 modifier = Modifier
-                    .padding(8.dp)
+                    .padding(16.dp)
                     .fillMaxWidth(),
                 value = input,
                 keyboardOptions = KeyboardOptions.Default.copy(
